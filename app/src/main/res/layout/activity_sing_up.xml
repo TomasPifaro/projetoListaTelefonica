@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".SingUpActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -38,37 +38,21 @@
             android:id="@+id/edit_password"
             android:hint="@string/password"
             android:gravity="center" />
-        
-        <CheckBox
+
+        <EditText
+            android:drawableStart="@drawable/baseline_lock_24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/keep_me_logged"
-            android:id="@+id/checkbox_logged" />
+            android:id="@+id/edit_confirm_password"
+            android:hint="@string/confirm_password"
+            android:gravity="center" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login"
-            android:id="@+id/button_login"/>
+            android:text="@string/signup"
+            android:id="@+id/button_signup"/>
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/text_signup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="@string/don_t_have_account_sign_up"
-        android:gravity="center"
-        android:layout_marginVertical="20dp"/>
-
-    <TextView
-        android:id="@+id/text_recover_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/recover_your_password"
-        android:gravity="center"
-        android:layout_margin="20dp"
-        android:layout_above="@+id/text_signup"/>
 
 </RelativeLayout>
