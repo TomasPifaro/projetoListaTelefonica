@@ -1,6 +1,5 @@
-package com.example.projetolistatelefonica
+package com.example.projetolistatelefonica.ui
 
-import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,7 +14,10 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonLogin.setOnClickListener {  }
+        binding.buttonLogin.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+
+        }
         binding.textSignup.setOnClickListener {
             startActivity(Intent(this, SingUpActivity::class.java))
         }

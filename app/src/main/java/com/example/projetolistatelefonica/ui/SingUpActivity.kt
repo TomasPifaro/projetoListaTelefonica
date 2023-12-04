@@ -1,4 +1,4 @@
-package com.example.projetolistatelefonica
+package com.example.projetolistatelefonica.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

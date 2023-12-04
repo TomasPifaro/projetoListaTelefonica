@@ -1,10 +1,11 @@
-package com.example.projetolistatelefonica
+package com.example.projetolistatelefonica.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.example.projetolistatelefonica.R
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
