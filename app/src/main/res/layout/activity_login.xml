@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/edit_username"
             android:hint="@string/username"
+            android:text="admin"
             android:gravity="center" />
 
         <EditText
@@ -37,6 +38,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/edit_password"
             android:hint="@string/password"
+            android:text="@string/password"
+            android:inputType="textPassword"
             android:gravity="center" />
         
         <CheckBox
